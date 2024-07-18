@@ -3,7 +3,7 @@ package br.ufpb.dcx.yan.quiz;
 import java.util.Arrays;
 import java.util.Objects;
 
-public class PerguntaME extends Pergunta {
+public class    PerguntaME extends Pergunta {
 
     private String [] alternativas;
 
