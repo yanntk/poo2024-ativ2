@@ -1,8 +1,8 @@
 package br.ufpb.dcx.yan.quiz;
 
-public class TestaSistemaAmigo {
+public class SistemaAmigoMapTest {
     public static void main(String[] args) {
-        SistemaAmigo sistema = new SistemaAmigo();
+        SistemaAmigoMap sistema = new SistemaAmigoMap();
 
         MensagemParaAlguem mensagem1 = new MensagemParaAlguem("João", "Feliz aniversário!");
         MensagemParaAlguem mensagem2 = new MensagemParaAlguem("Maria", "Você é incrível!");

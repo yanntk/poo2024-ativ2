@@ -6,14 +6,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class TestaSistemaAmigoGUI {
-    private SistemaAmigo sistema;
+    private SistemaAmigoMap sistema;
     private JFrame janela;
     private JTextField campoDestino;
     private JTextField campoMensagem;
     private JTextArea areaMensagens;
 
     public TestaSistemaAmigoGUI() {
-        sistema = new SistemaAmigo();
+        sistema = new SistemaAmigoMap();
         criarJanela();
     }
 
